@@ -1,0 +1,42 @@
+body,
+html {
+  width: 100%; /*this and height setting here will make it cover 100 % of what we see on the screen*/
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+	height:100vh; 
+	background-image:url("header.jpg");
+	background-size:cover;
+	background-position:center;
+	color:white;
+}
+
+.display-4 {
+	font-size:3rem;
+}
+
+.sign-up {
+	font-weight:700; 
+	border-radius:300px;
+	border:2px solid white;
+	text-transform:uppercase;
+	/*we could have done this uppercase three ways: changed the text, given it a bootstrap class of "text-uppdercase," or the way we just did it here with a property of text-transform */
+}
+
+.sign-up:hover {
+	border:5px solid white; 
+}
+
+hr {
+	width:60px; 
+	height:4px; 
+	background-color:#dc3545;
+	display:block;
+	 
+}
+
+.buffer {
+	height:9rem;
+}
